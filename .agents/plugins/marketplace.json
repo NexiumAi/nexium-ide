@@ -1,0 +1,20 @@
+{
+  "name": "nexium",
+  "interface": {
+    "displayName": "Nexium for IDE"
+  },
+  "plugins": [
+    {
+      "name": "nexium",
+      "source": {
+        "source": "local",
+        "path": "./codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    }
+  ]
+}

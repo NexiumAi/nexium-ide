@@ -1,0 +1,28 @@
+{
+  "name": "nexium",
+  "version": "1.0.0",
+  "description": "Take a task from Nexium, implement it on your own branch with Codex, self-review the diff against the client's regulations, and attach the pushed branch as the task's Draft MR. Or hand the draft to Nexium's ai-coder.",
+  "author": {
+    "name": "Nexium",
+    "email": "hello@nexium.systems",
+    "url": "https://nexium.systems"
+  },
+  "homepage": "https://github.com/NexiumAi/nexium-ide",
+  "repository": "https://github.com/NexiumAi/nexium-ide",
+  "keywords": ["nexium", "tasks", "merge-request", "gitlab", "mcp", "compliance", "code-review"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Nexium",
+    "shortDescription": "Implement Nexium tasks and attach them as Draft MRs",
+    "longDescription": "Nexium supplies what to build: the task, its stories and acceptance criteria, the regulatory obligations the client enabled, and the project's conventions. Codex and you write the code on your own branch, Nexium's reviewer checks the diff, your git pushes it after you say yes, and the branch is attached to the task as a Draft MR. People decide at Nexium's gates. Needs the nexium MCP server in ~/.codex/config.toml.",
+    "developerName": "Nexium",
+    "category": "Coding",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://nexium.systems",
+    "defaultPrompt": [
+      "Implement Nexium task 482 with $nexium-task",
+      "List my open Nexium tasks",
+      "Attach my current branch to Nexium task 482"
+    ]
+  }
+}

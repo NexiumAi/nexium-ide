@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "nexium",
-  "description": "Nexium for Claude Code: take a task from Nexium, implement it with Claude, and attach your branch as the task's draft merge request.",
+  "description": "Nexium for IDE, the Claude Code marketplace: take a task from Nexium, implement it with Claude, self-review it against the client's regulations, and attach your branch as the task's draft merge request.",
   "owner": {
     "name": "Nexium",
     "email": "hello@nexium.systems"
@@ -17,7 +17,7 @@
       },
       "homepage": "https://nexium.systems",
       "category": "development",
-      "source": "./plugins/nexium"
+      "source": "./claude-code"
     }
   ]
 }
