@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "nexium": {
+      "type": "http",
+      "url": "${NEXIUM_MCP_URL}",
+      "headers": {
+        "Authorization": "Bearer ${NEXIUM_MCP_TOKEN}"
+      }
+    }
+  }
+}

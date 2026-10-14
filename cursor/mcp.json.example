@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "nexium": {
+      "url": "${env:NEXIUM_MCP_URL}",
+      "headers": {
+        "Authorization": "Bearer ${env:NEXIUM_MCP_TOKEN}"
+      }
+    }
+  }
+}

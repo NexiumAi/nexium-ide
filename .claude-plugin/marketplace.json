@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nexium",
+  "description": "Nexium for Claude Code: take a task from Nexium, implement it with Claude, and attach your branch as the task's draft merge request.",
+  "owner": {
+    "name": "Nexium",
+    "email": "hello@nexium.systems"
+  },
+  "plugins": [
+    {
+      "name": "nexium",
+      "description": "Read Nexium tasks, their stories and acceptance criteria and the project's conventions; implement on your own branch; attach the pushed branch as a Draft MR for Nexium's review gate; or hand the draft to Nexium's ai-coder.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Nexium",
+        "email": "hello@nexium.systems"
+      },
+      "homepage": "https://nexium.systems",
+      "category": "development",
+      "source": "./plugins/nexium"
+    }
+  ]
+}

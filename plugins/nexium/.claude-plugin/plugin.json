@@ -1,0 +1,11 @@
+{
+  "name": "nexium",
+  "version": "1.0.0",
+  "description": "Read Nexium tasks, their stories and acceptance criteria and the project's conventions; implement on your own branch; attach the pushed branch as a Draft MR for Nexium's review gate; or hand the draft to Nexium's ai-coder.",
+  "author": {
+    "name": "Nexium",
+    "email": "hello@nexium.systems"
+  },
+  "homepage": "https://nexium.systems",
+  "keywords": ["nexium", "tasks", "merge-request", "gitlab", "mcp"]
+}
