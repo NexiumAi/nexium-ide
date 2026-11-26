@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "codeweir",
+  "description": "Codeweir for IDE, the Claude Code marketplace: take a task from Codeweir, implement it with Claude, self-review it against the client's regulations, and attach your branch as the task's draft merge request.",
+  "owner": {
+    "name": "Codeweir",
+    "email": "hello@codeweir.com"
+  },
+  "plugins": [
+    {
+      "name": "codeweir",
+      "description": "Read Codeweir tasks, their stories and acceptance criteria and the project's conventions; implement on your own branch; attach the pushed branch as a Draft MR for Codeweir's review gate; or hand the draft to Codeweir's ai-coder.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Codeweir",
+        "email": "hello@codeweir.com"
+      },
+      "homepage": "https://codeweir.com",
+      "category": "development",
+      "source": "./claude-code"
+    }
+  ]
+}

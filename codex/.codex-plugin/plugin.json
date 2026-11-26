@@ -1,0 +1,28 @@
+{
+  "name": "codeweir",
+  "version": "1.0.0",
+  "description": "Take a task from Codeweir, implement it on your own branch with Codex, self-review the diff against the client's regulations, and attach the pushed branch as the task's Draft MR. Or hand the draft to Codeweir's ai-coder.",
+  "author": {
+    "name": "Codeweir",
+    "email": "hello@codeweir.com",
+    "url": "https://codeweir.com"
+  },
+  "homepage": "https://github.com/Codeweir/codeweir-ide",
+  "repository": "https://github.com/Codeweir/codeweir-ide",
+  "keywords": ["codeweir", "tasks", "merge-request", "gitlab", "mcp", "compliance", "code-review"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codeweir",
+    "shortDescription": "Implement Codeweir tasks and attach them as Draft MRs",
+    "longDescription": "Codeweir supplies what to build: the task, its stories and acceptance criteria, the regulatory obligations the client enabled, and the project's conventions. Codex and you write the code on your own branch, Codeweir's reviewer checks the diff, your git pushes it after you say yes, and the branch is attached to the task as a Draft MR. People decide at Codeweir's gates. Needs the codeweir MCP server in ~/.codex/config.toml.",
+    "developerName": "Codeweir",
+    "category": "Coding",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://codeweir.com",
+    "defaultPrompt": [
+      "Implement Codeweir task 482 with $codeweir-task",
+      "List my open Codeweir tasks",
+      "Attach my current branch to Codeweir task 482"
+    ]
+  }
+}

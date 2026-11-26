@@ -1,0 +1,11 @@
+{
+  "name": "codeweir",
+  "version": "1.0.0",
+  "description": "Read Codeweir tasks, their stories and acceptance criteria and the project's conventions; implement on your own branch; attach the pushed branch as a Draft MR for Codeweir's review gate; or hand the draft to Codeweir's ai-coder.",
+  "author": {
+    "name": "Codeweir",
+    "email": "hello@codeweir.com"
+  },
+  "homepage": "https://codeweir.com",
+  "keywords": ["codeweir", "tasks", "merge-request", "gitlab", "mcp"]
+}

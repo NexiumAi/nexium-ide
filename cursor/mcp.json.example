@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "codeweir": {
+      "url": "${env:CODEWEIR_MCP_URL}",
+      "headers": {
+        "Authorization": "Bearer ${env:CODEWEIR_MCP_TOKEN}"
+      }
+    }
+  }
+}
